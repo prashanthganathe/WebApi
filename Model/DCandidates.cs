@@ -20,7 +20,7 @@ namespace WebApi.Model
         public string email { get; set; }
         [Column(TypeName = "nvarchar(100)")]
 
-        public string age { get; set; }
+        public int age { get; set; }
         [Column(TypeName = "nvarchar(100)")]
         public string bloodgroup { get; set; }
         [Column(TypeName = "nvarchar(100)")]
